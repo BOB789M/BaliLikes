@@ -13,7 +13,10 @@
 
     <section id="form-section">
         <h2>Bagikan Pemikiranmu</h2>
-        <form action="submit_info.php" method="POST">
+        <!-- Form using Formspree -->
+        <form action="https://formspree.io/f/myzgjowr" method="POST">
+            <input type="hidden" name="form-name" value="contact">
+
             <label for="name">Nama:</label>
             <input type="text" id="name" name="name" required>
 
@@ -25,11 +28,6 @@
 
             <button type="submit">Kirim</button>
         </form>
-    </section>
-
-    <section id="display-section">
-        <h2>Apa yang Orang Lain Suka tentang Bali</h2>
-        <?php include 'display_info.php'; ?>
     </section>
 
     <footer>

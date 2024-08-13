@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST['name']);
-    $email = htmlspecialchars($_POST['email']);
-    $message = htmlspecialchars($_POST['message']);
+    $name = htmlspecialchars($_POST['Joel']);
+    $email = htmlspecialchars($_POST['djbob789@gmail.com']);
+    $message = htmlspecialchars($_POST['Hello']);
 
     $data = "Nama: $name\nEmail: $email\nApa yang Disukai: $message\n\n";
 
